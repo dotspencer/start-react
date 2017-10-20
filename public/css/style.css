@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: system-ui, sans-serif;
-  background-color: lightgreen; }
+  margin: 0;
+  background-color: whitesmoke; }
+
+.content {
+  max-width: 700px;
+  margin: 40px auto 0;
+  background-color: white; }
+
+h1.title {
+  background-image: linear-gradient(160deg, mediumseagreen, dodgerblue);
+  color: white;
+  margin: 0;
+  padding: 1rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center; }
