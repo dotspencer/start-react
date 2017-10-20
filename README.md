@@ -1,8 +1,8 @@
 # start-react
 
-A simple setup for starting a React.js app. Has less moving parts than [create-react-app][cra] and in my opinion is easier to understand for those beginning to learn React.
+A simple setup for starting a React.js app. It has less moving parts than [create-react-app][cra] and in my opinion is easier to understand for those beginning to learn React.
 
-Can be used as an environment to build a front-end only app or can be used as a starting place to build the backend as well using NodeJS.
+Can be used as an environment to build a front-end only app or can be used as a starting place to build the backend as well using Node.js.
 
 ### Uses:
 - [Express][express] for webserver (dev and production)
