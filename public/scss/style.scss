@@ -1,23 +1,52 @@
+/*
+  Feel free to completly remove all styling below. Only added
+  to show a nice looking screen if setup is working correctly.
+*/
+
 * { box-sizing: border-box; }
 
-$green: #1ed975;
+$main-width: 700px;
+$green: mediumseagreen;
+$blue: dodgerblue;
+
 
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
   background-color: whitesmoke;
 }
-.content {
-  max-width: 700px;
+.top {
+  max-width: $main-width;
   margin: 40px auto 0;
   background-color: white;
+  nav {
+    padding: 10px 30px 0;
+  }
+  nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    &.active {
+      background-color: lightgray;
+    }
+  }
 }
-h1.title {
-  background-image: linear-gradient(160deg, mediumseagreen, dodgerblue);
+.content {
+  max-width: $main-width;
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  padding: 30px;
+  padding-top: 0;
+}
+div.title {
+  background-image: linear-gradient(160deg, $green, $blue);
+  font-size: 2rem;
   color: white;
   margin: 0;
   padding: 1rem;
-  font-weight: 300;
-  letter-spacing: 2px;
+  font-weight: 200;
+  letter-spacing: 5px;
   text-align: center;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
